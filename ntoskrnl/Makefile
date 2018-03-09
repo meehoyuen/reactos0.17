@@ -9,7 +9,7 @@ TARGETNAME = ntoskrnl
 OBJECTS_PATH = objects
 
 ASFLAGS = -Iinclude
-CFLAGS = -Iinclude -D__NTOSKRNL__ -DDBG -g -Wall -Werror
+CFLAGS = -Iinclude -D__NTOSKRNL__ -DDBG -g -Wall
 
 all: \
 	$(OBJECTS_PATH) \
